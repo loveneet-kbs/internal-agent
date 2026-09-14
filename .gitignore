@@ -1,0 +1,19 @@
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+backend/.env
+backend/database/app.db
+backend/database/app.db-*
+frontend/dist/
+*.log
+.DS_Store
+
+# Python backend
+backend-python/.venv/
+backend-python/__pycache__/
+backend-python/**/__pycache__/
+backend-python/.pytest_cache/
+backend-python/.env
+backend-python/database/app.db
+backend-python/database/app.db-*
+frontend/.env
